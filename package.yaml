@@ -20,6 +20,11 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - cswk-program
+    - gloss
+    - containers
+    - array
+    - mtl
+    - random
 
 tests:
   cswk-program-test:
@@ -31,3 +36,5 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - cswk-program
+    - gloss
+    
